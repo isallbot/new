@@ -2147,10 +2147,10 @@ break
                       if (isLimit(sender)) return reply(nad.limitend(pushname))
                       if (!isEventon) return reply(`maaf ${pushname} event mining tidak di aktifkan sama owner BOT-YOE`)
                       if (isOwner) {
-                      const one = 999999999
+                      const one = 1000000
                       addLevelingXp(sender, one)
                       addLevelingLevel(sender, 99)
-                      reply(`karena ISALL baik Bot memberikan ${one}Xp >_<`)
+                      reply(`karena BOT-YOE baik Bot memberikan ${one}Xp >_<`)
                       }else{
                       const mining = Math.ceil(Math.random() * 10000)
                       addLevelingXp(sender, mining)
@@ -2217,7 +2217,7 @@ break
             case 'owner':
             case 'creator':
                   baby.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
-                  baby.sendMessage(from, 'Tuh Nomor Pacarku >_<, Ehh Ownerku mksdnya:v',MessageType.text, { quoted: mek} )
+                  baby.sendMessage(from, 'Tuh Nomor OWNERKU',MessageType.text, { quoted: mek} )
 					break
            case 'hartatahta':
            if (isBanned) return reply(nad.baned())
